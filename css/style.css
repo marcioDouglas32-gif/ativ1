@@ -94,11 +94,17 @@ form{
        background:#3871FF;
        border-radius: 5px;
        color: white;
-       border: 0;
+       border: none;
        font-weight: bold;
        font-family: 'arial';
        font-size: 17px;
        cursor: pointer;
+       transition: 0.5s;
+       
+}
+.buton:hover{
+       background:#1453f3;
+       
        
 }
 #inp{
@@ -116,4 +122,12 @@ img{
 small{
        color: white;
 }
+.doc{
+       visibility: hidden;
+      color: red;
+      font-size: 12px;
+      margin-left: 2cm;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      
 
+}
